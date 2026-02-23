@@ -1,5 +1,7 @@
 ```cpp
 
+
+
 #include <iostream>
 #include <vector>
 #include <string>
@@ -45,9 +47,12 @@ namespace Profile {
         };
 
         void displayPortfolio() const {
-            std::cout << "===========================================" << std::endl;
-            std::cout << "           [C++ DEVELOPER]  " << std::endl;
-            std::cout << "===========================================" << std::endl;
+            std::cout << "==========================================="
+            << std::endl;
+            std::cout << "           [C++ DEVELOPER]                 "
+            << std::endl;
+            std::cout << "==========================================="
+            << std::endl;
             std::cout << "> Exp: " << experience_years << " year(s) of pointer debugging." << std::endl;
             std::cout << "> OS: " << env.workstation << " -> " << env.test_bench << std::endl;
             
@@ -75,4 +80,6 @@ int main() {
 
     return 0;
 }
+
+
 
